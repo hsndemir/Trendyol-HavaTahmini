@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="33.03">
+    <testcase classname="Customer Trendyol alisveris sitesine girip, Register olmadan sepete urun ekleyebilmeli" name="US_001 TC_001 Sepete En Cok Eklenenler sayfasina gidebilmeli" time="14.524">
+        <system-out>
+            <![CDATA[Given Kullanici trendyol sitesine gider.....................................passed
+When Kullanici siteye girdiginde ana sayfayi gorur..........................passed
+And Kullanici Sepete En Cok Eklenenler butonuna basar.......................passed
+Then Kullanici acilan sayfada Sepetteki Urunler basligini gorur.............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Customer Trendyol alisveris sitesine girip, Register olmadan sepete urun ekleyebilmeli" name="US_001 TC_002 Urun secebilmeli ve sepete ekleyebilmeliyim" time="13.218">
+        <system-out>
+            <![CDATA[Given Kullanici urun listesi gorur..........................................passed
+When Kullanici listeden ilk urunu secer.....................................passed
+And Kullanici urun sayfasina yonlenir.......................................passed
+And Kullanici Sepete Ekle butonuna basar....................................passed
+Then Kullanici urunun basarili bir sekilde spete eklendigine dair mesaj alir.passed
+And Kullanici sepetim butonuna basar........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Customer Trendyol alisveris sitesine girip, Register olmadan sepete urun ekleyebilmeli" name="US_001 TC_003 Sepetime girip, eklenen urunleri gorebilmeliyim" time="0.189">
+        <system-out>
+            <![CDATA[Given Kullanici Sepetim ana sayfasinda sepete eklenen urun listesini gorur..passed
+Then Kullanici ekledigi urunu urun listesinde gorur.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hava tahminini almak istedigi sehre gore request gonderip, response alir" name="Kullanici aldigi hava tahminini API ile dogrular" time="4.453">
+        <system-out>
+            <![CDATA[Given kullanici url yi "Manisa" ayarlar.....................................passed
+When kullanici ilgili endpointe request gonderir............................passed
+Then status code 200 olmali.................................................passed
+And Gonderilen request ile gelen response ayni sehir olmali.................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

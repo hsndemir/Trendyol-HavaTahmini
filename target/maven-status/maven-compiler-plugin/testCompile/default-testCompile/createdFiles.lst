@@ -1,0 +1,7 @@
+stepDefinitions\SepeteUrunEkleStepDef.class
+stepDefinitions\HavaTahminiStepDef.class
+pages\TrendyolPage.class
+utilities\ConfigReader.class
+runners\Runner.class
+runners\TestRunner.class
+utilities\Driver.class
